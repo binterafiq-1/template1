@@ -1,0 +1,223 @@
+/* Global Css*/
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+section {
+    text-align: center;
+    padding: 75px 0px;
+}
+p {
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+.heading {
+    font-size: 35px;
+    line-height: 35px;
+    font-weight: 600;
+}
+.sub-heading{
+    font-size: 25px;
+    line-height: 25px;
+    text-transform: uppercase;
+    margin: 20px 0px;
+}
+.underline {
+    border-top: 5px solid#0000004c;
+    width: 7% !important;
+    margin: 15px auto !important;
+}
+.writing-part{
+    margin-bottom: 50px;
+}
+.writing-part p {
+    width: 50%;
+    margin: auto;
+}
+.box {
+    padding: 0px 25px;
+}
+.hero-part a button{
+   background-color: #eb7d4b;
+   color: white;
+   margin-top: 30px;
+}
+.btn{
+   width: 200px;
+   padding: 10px;
+   font-size: 20px;
+   text-transform: uppercase;
+
+}
+/*layout*/
+ .container{
+    width: 90%;
+    margin: auto;
+  
+ }
+ .row {
+    width: 100%;
+    float: left;
+ }
+ [class*="col-"] {
+    float: left;
+ }
+ .col-1{
+    width: 8.33%;
+ }
+ .col-2{
+    width: 16.66%;
+ }
+ .col-3{
+    width: 25%;
+ }
+ .col-4{
+    width: 33.33%;
+ }
+ .col-5{
+    width: 41.66%;
+ }
+ .col-6{
+    width: 50%;
+ }
+ .col-7{
+    width: 58.33%;
+ }
+ .col-8{
+    width: 66.66%;
+ }
+ .col-9{
+    width: 75%;
+ }
+ .col-10{
+    width: 83.33%;
+ }
+ .col-11{
+    width: 91.66%;
+ }
+ .col-12{
+    width: 100%;
+ }
+
+ /*Header part*/
+ header{
+  background-color: #87509c;
+  color: #fff;
+ }
+ nav {
+    padding: 10px opx;
+ }
+ .menu-part {
+    text-align: right;
+    padding: 10px 0px;
+ }
+ .menu-part li {
+display: inline-block;
+margin: 0px 5px;
+
+ }
+ .menu-part li a {
+    padding: 7px 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;  
+ }
+ .menu-part li a:hover {
+    background-color: rgba(0, 0, 0, 0.398);
+    border-radius: 5px;
+ }
+ .hero-part {
+    text-align: center;
+    padding: 100px 150px;
+  }
+  .hero-part h1{
+   font-size: 45px;
+   line-height: 45px;
+  }
+   .hero-part a button{
+      background-color: #eb7d4b;
+      color: white;
+      margin-top: 30px;
+  }
+ 
+ /* Service section */
+ #service{
+    background-color:#17c2a4;
+    color: #ffffff;
+ }
+ 
+/* Team section */
+#team{
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+#team .box .sub-heading {
+    margin-bottom: 0px;
+}
+.titie {
+   font-size: 20px;
+   color: #30bae7;
+   margin-bottom: 25px;
+
+}
+.team-icon-box{
+   margin-top: 30px;
+
+}
+.team-icon-box i {
+  font-size: 20px;
+  background-color: #3c4761;
+  color: #eff6fa;
+  padding: 12px;
+  width: 45px;
+  border-radius: 50px;
+}
+.team-icon-box i:hover {
+   background-color: #222428;
+
+}
+/* Skill section */
+#skill{
+   background-color: #fff;
+   color: #3c4761;
+}
+/* Portfolio section */
+#portfolio{
+   background-color: #ffdd99;
+   color: #3c4761;
+}
+#portfolio .btn box {
+   width: 25%;
+   text-align: center;
+   padding: 100px 150px;
+
+}
+#portfolio .btn {
+   background-color: #17c2a4;
+   color: #e7f1f8;
+}
+/* About section */
+#about{
+   background-color: #d74680;
+   color: #ffffff;
+}
+/* Contact section */
+#contact{
+   background-color: #3c5499;
+   color: #fff;
+}
+#from{
+ width: 100%;
+ margin: auto;
+
+}
+/* Footer Section */
+
+

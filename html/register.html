@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register page</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+   <div id="admin-box">
+    <h1>Registration page</h1>
+    
+    <form action="">
+        <label for="f-name">Enter your First name</label> 
+        <input type="text" required name="f-name" placeholder="Tanvina" /> 
+        <label for="L-name">Enter your Last name</label> 
+        <input type="text" required name="L-name" placeholder="Tumpa" /> 
+        <label for="db">Date of Birth</label> 
+        <input type="date" required />
+        <!-- Radio Start -->
+        <label for="gender">Gender</label> 
+        <input type="radio" name="gender" id="gender" class="cstm" />
+        <label for="gender" class="cstm">Male</label>
+        <input type="radio" name="gender" id="gender" class="cstm" />
+        <label for="gender" class="cstm">Female</label>
+        <input type="radio" name="gender" id="gender" class="cstm" />
+        <label for="gender" class="cstm" >Others</label>
+        <!-- Radio end -->
+
+        <lable for="mail">Enter your email:</lable>
+        <input type="mail" required name="mail" placeholder="Tanvina5758@gmil.com" />
+        <label for="cmail">Confirm email:</label>
+        <input type="mail" required name="cmail" placeholder="Tanvina5758@gmail.com" />
+        <label for="pass">Enter your password</label>
+        <input type="password"required name="pass" placeholder="89ji?" /> 
+        <input type="submit" value="Register" />
+        
+    </form>
+    <p class="pg" >Already have an account? please <a href="../index.html">Login here</a></p>
+    
+   </div>
+</body>
+</html>
